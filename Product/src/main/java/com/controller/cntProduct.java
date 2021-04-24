@@ -19,7 +19,7 @@ public class cntProduct {
 	
 	public List<Product>getProducts(){
 	   	 
-	   	 List<Product> Products = new ArrayList<>();
+	   	 
 	   	 String sql = "select * from product";
 	   	 try 
 	   	   {
