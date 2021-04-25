@@ -13,7 +13,7 @@ public class Funding_Posts {
 			Class.forName("com.mysql.jdbc.Driver");
 			
 			//Provide Correct Database Details
-			con= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3307/test_", "root", "");
+			con= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/paf_test", "root", "");
 		}
 		catch (Exception e) {
 			// TODO: handle exception
