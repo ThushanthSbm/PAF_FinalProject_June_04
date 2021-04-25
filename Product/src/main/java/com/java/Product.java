@@ -29,7 +29,25 @@ public class Product {
 		ProductName = ProductName;
 	}
 
-	
+	public String getProductMail() {
+		return ProductMail;
+	}
+
+	public void setProductMail(String ProductMail ) {
+		ProductMail = ProductMail;
+	}
+
+	public int getPhoneNo() {
+		return PhoneNo;
+	}
+
+	public void setPhoneNo(int phoneNo) {
+		PhoneNo = phoneNo;
+	}
+
+	public String getAddress() {
+		return Address;
+	}
 
 	public void setAddress(String address) {
 		Address = address;
